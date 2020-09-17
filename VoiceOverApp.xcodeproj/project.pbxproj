@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387707FA57E080A4D9E09598 /* Pods_VoiceOverApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF2575A43FFA1BCB7D9BAB9 /* Pods_VoiceOverApp.framework */; };
 		F25BDB5825130D6100605314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB5725130D6100605314 /* AppDelegate.swift */; };
 		F25BDB5A25130D6100605314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB5925130D6100605314 /* SceneDelegate.swift */; };
 		F25BDB5F25130D6100605314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB5D25130D6100605314 /* Main.storyboard */; };
@@ -22,9 +23,19 @@
 		F25BDB81251322F100605314 /* NewsDetailImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB7E251322F100605314 /* NewsDetailImageTableViewCell.swift */; };
 		F25BDB82251322F100605314 /* NewsDetailTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB7F251322F100605314 /* NewsDetailTitleTableViewCell.swift */; };
 		F25BDB842513234300605314 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB832513234300605314 /* NewsDetailViewController.swift */; };
+		F25BDB8825132DFA00605314 /* JsonRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB8625132DFA00605314 /* JsonRequester.swift */; };
+		F25BDB9125132E7D00605314 /* Internacionales.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB8B25132E7D00605314 /* Internacionales.json */; };
+		F25BDB9225132E7D00605314 /* Deportes.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB8C25132E7D00605314 /* Deportes.json */; };
+		F25BDB9325132E7D00605314 /* Negocios.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB8D25132E7D00605314 /* Negocios.json */; };
+		F25BDB9425132E7D00605314 /* Ciencia.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB8E25132E7D00605314 /* Ciencia.json */; };
+		F25BDB9525132E7D00605314 /* Tech.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB8F25132E7D00605314 /* Tech.json */; };
+		F25BDB9625132E7D00605314 /* Salud.json in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB9025132E7D00605314 /* Salud.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF2575A43FFA1BCB7D9BAB9 /* Pods_VoiceOverApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceOverApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B9D45D5764F24C3A6DE1B1 /* Pods-VoiceOverApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceOverApp.release.xcconfig"; path = "Target Support Files/Pods-VoiceOverApp/Pods-VoiceOverApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE80DA052E46FFEB0C696652 /* Pods-VoiceOverApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceOverApp.debug.xcconfig"; path = "Target Support Files/Pods-VoiceOverApp/Pods-VoiceOverApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F25BDB5425130D6100605314 /* VoiceOverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceOverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25BDB5725130D6100605314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F25BDB5925130D6100605314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +53,13 @@
 		F25BDB7E251322F100605314 /* NewsDetailImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailImageTableViewCell.swift; sourceTree = "<group>"; };
 		F25BDB7F251322F100605314 /* NewsDetailTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailTitleTableViewCell.swift; sourceTree = "<group>"; };
 		F25BDB832513234300605314 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		F25BDB8625132DFA00605314 /* JsonRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonRequester.swift; sourceTree = "<group>"; };
+		F25BDB8B25132E7D00605314 /* Internacionales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Internacionales.json; sourceTree = "<group>"; };
+		F25BDB8C25132E7D00605314 /* Deportes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Deportes.json; sourceTree = "<group>"; };
+		F25BDB8D25132E7D00605314 /* Negocios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Negocios.json; sourceTree = "<group>"; };
+		F25BDB8E25132E7D00605314 /* Ciencia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ciencia.json; sourceTree = "<group>"; };
+		F25BDB8F25132E7D00605314 /* Tech.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tech.json; sourceTree = "<group>"; };
+		F25BDB9025132E7D00605314 /* Salud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Salud.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387707FA57E080A4D9E09598 /* Pods_VoiceOverApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50E0A49FDF057D994BC695DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF2575A43FFA1BCB7D9BAB9 /* Pods_VoiceOverApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		588E5CA33F5A0BBB0A538B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DA052E46FFEB0C696652 /* Pods-VoiceOverApp.debug.xcconfig */,
+				A9B9D45D5764F24C3A6DE1B1 /* Pods-VoiceOverApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F25BDB4B25130D6100605314 = {
 			isa = PBXGroup;
 			children = (
 				F25BDB5625130D6100605314 /* VoiceOverApp */,
 				F25BDB5525130D6100605314 /* Products */,
+				588E5CA33F5A0BBB0A538B96 /* Pods */,
+				50E0A49FDF057D994BC695DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +112,7 @@
 		F25BDB5625130D6100605314 /* VoiceOverApp */ = {
 			isa = PBXGroup;
 			children = (
+				F25BDB8525132DFA00605314 /* Utilities */,
 				F25BDB7725131AF900605314 /* Model */,
 				F25BDB6D2513163200605314 /* Modules */,
 				F25BDB6B2513161300605314 /* SupportingFiles */,
@@ -126,6 +165,7 @@
 		F25BDB7725131AF900605314 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F25BDB8A25132E7D00605314 /* JsonData */,
 				F25BDB7825131B0500605314 /* NewsModel.swift */,
 			);
 			path = Model;
@@ -142,6 +182,27 @@
 			path = NewsDetails;
 			sourceTree = "<group>";
 		};
+		F25BDB8525132DFA00605314 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F25BDB8625132DFA00605314 /* JsonRequester.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F25BDB8A25132E7D00605314 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				F25BDB8B25132E7D00605314 /* Internacionales.json */,
+				F25BDB8C25132E7D00605314 /* Deportes.json */,
+				F25BDB8D25132E7D00605314 /* Negocios.json */,
+				F25BDB8E25132E7D00605314 /* Ciencia.json */,
+				F25BDB8F25132E7D00605314 /* Tech.json */,
+				F25BDB9025132E7D00605314 /* Salud.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F25BDB6825130D6300605314 /* Build configuration list for PBXNativeTarget "VoiceOverApp" */;
 			buildPhases = (
+				A3430C413AA791BA2DA5603C /* [CP] Check Pods Manifest.lock */,
 				F25BDB5025130D6100605314 /* Sources */,
 				F25BDB5125130D6100605314 /* Frameworks */,
 				F25BDB5225130D6100605314 /* Resources */,
+				F7A01F4ADEB71D6BD634401A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,17 +264,66 @@
 			files = (
 				F25BDB6425130D6300605314 /* LaunchScreen.storyboard in Resources */,
 				F25BDB6125130D6300605314 /* Assets.xcassets in Resources */,
+				F25BDB9625132E7D00605314 /* Salud.json in Resources */,
 				F25BDB5F25130D6100605314 /* Main.storyboard in Resources */,
+				F25BDB9125132E7D00605314 /* Internacionales.json in Resources */,
+				F25BDB9525132E7D00605314 /* Tech.json in Resources */,
+				F25BDB9325132E7D00605314 /* Negocios.json in Resources */,
+				F25BDB9425132E7D00605314 /* Ciencia.json in Resources */,
+				F25BDB9225132E7D00605314 /* Deportes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3430C413AA791BA2DA5603C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceOverApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A01F4ADEB71D6BD634401A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceOverApp/Pods-VoiceOverApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceOverApp/Pods-VoiceOverApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceOverApp/Pods-VoiceOverApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F25BDB5025130D6100605314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25BDB8825132DFA00605314 /* JsonRequester.swift in Sources */,
 				F25BDB842513234300605314 /* NewsDetailViewController.swift in Sources */,
 				F25BDB7B25131BBD00605314 /* HeadlLineTableViewCell.swift in Sources */,
 				F25BDB7425131A4B00605314 /* HeadLinesNewsViewController.swift in Sources */,
@@ -365,6 +477,7 @@
 		};
 		F25BDB6925130D6300605314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE80DA052E46FFEB0C696652 /* Pods-VoiceOverApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -384,6 +497,7 @@
 		};
 		F25BDB6A25130D6300605314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B9D45D5764F24C3A6DE1B1 /* Pods-VoiceOverApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

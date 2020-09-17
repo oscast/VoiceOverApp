@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class HeadlLineTableViewCell: UITableViewCell {
     
@@ -19,5 +20,14 @@ class HeadlLineTableViewCell: UITableViewCell {
         super.awakeFromNib()
         
         newsImageView.layer.cornerRadius = 15.0
+    }
+    
+    func setup(with news: NewsModel) {
+        newsInformationLabel.text = news.newsTitle
+        dateLabel.text = news.newsDate
+        favoriteImageView.image = UIImage(named: "favorite")
+        favoriteQuantityLabel.text = "\(news.likes)"
+        let url = URL(string: news.image)
+        newsImageView.sd_setImage(with: url, completed: nil)
     }
 }

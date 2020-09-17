@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class NewsDetailImageTableViewCell: UITableViewCell {
     
@@ -29,6 +30,8 @@ class NewsDetailImageTableViewCell: UITableViewCell {
     
     func setup(with news: NewsModel) {
         checkFavorite(isFavorite: newsIsFavorite)
+        let url = URL(string: news.image)
+        newsDetailImageView.sd_setImage(with: url, completed: nil)
     }
     
     func checkFavorite(isFavorite: Bool) {

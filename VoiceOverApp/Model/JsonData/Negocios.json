@@ -1,0 +1,47 @@
+[
+    {
+        "category": "Negocios",
+        "newsTitle": """Impacta con tu historia"", una iniciativa de ESEN para promover la creatividad de la juventud salvadoreña",
+        "newsInformation": "La Escuela Superior de Economía y Negocios (ESEN) lanza el concurso “Impacta con tu historia”, con el que buscan que jóvenes en último año de bachillerato se motiven a participar y ganar, entre otras cosas, media beca de estudios.",
+        "image": "ARM",
+        "newsDate": "Septiembre 14 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "Impacta con tu historia, una iniciativa de ESEN para promover la creatividad de la juventud salvadoreña",
+            "newsInformation": "La Escuela Superior de Economía y Negocios (ESEN) lanza el concurso llamado, Impacta con tu historia, con el que buscan que jóvenes en último año de bachillerato se motiven a participar y ganar, entre otras cosas, media beca de estudios.",
+            "imageDescription": "Se ve un procesador Nvidia soldado en una placa madre indicando que fue hecho en Taiwan",
+            "newsDate": "Septiembre catorce dos mil veinte"
+        }
+    },
+    {
+        "category": "Tecnología",
+        "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
+        "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la «nube»",
+        "image": "Miguel",
+        "newsDate": "Septiembre 14 2020 ",
+        "likes": 30,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
+            "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la nube",
+            "imageDescription": "Foto de Miguel Álava, director de Amazon web services en España",
+            "newsDate": "Septiembre catorce dos mil veinte"
+        }
+    },
+    {
+        "category": "Tecnología",
+        "newsTitle": "El 'euro digital': la criptomoneda con la que los cinco grandes bancos españoles pretenden hacer sombra a Bitcoin",
+        "newsInformation": "Son días en los que los bancos dan noticias que pueden afectarnos a todos. A la fusión entre CaixaBank y Bankia que ya se está ejecutando, y que impelería el surgimiento de la entidad bancaria más grande de España, también hay que sumar el proyecto de crear un 'euro digital'.",
+        "image": "Miguel",
+        "newsDate": "Septiembre 14 2020 ",
+        "likes": 20,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
+            "newsInformation": "Son días en los que los bancos dan noticias que pueden afectarnos a todos. A la fusión entre CaixaBank y Bankia que ya se está ejecturando, y que impelería el surgimiento de la entidad bancaria más grande de España, también hay que sumar el proyecto de crear un euro digital",
+            "imageDescription": "Foto de Miguel Álava, director de Amazon web services en España",
+            "newsDate": "Septiembre catorce dos mil veinte"
+        }
+    }
+]

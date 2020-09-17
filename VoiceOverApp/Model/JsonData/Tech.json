@@ -1,0 +1,47 @@
+[
+    {
+        "category": "Tecnología",
+        "newsTitle": "Nvidia compra ARM, el principal fabricante de procesadores móviles.",
+        "newsInformation": "Nvidia se hace con el negocio de ARM por 40,000 millones de dólares. Su tecnología está en el corazón de productos tan populares como el iPhone, la serie Galaxy de Samsung o el Apple Watch.",
+        "image": "https://i.blogs.es/e24f0a/screenshot-2/1366_2000.jpg",
+        "newsDate": "Septiembre 14 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "Nvidia compra ARM, el principal fabricante de procesadores móviles.",
+            "newsInformation": "Nvidia se hace con el negocio de ARM por 40 mil millones de dólares. Su tecnología está en el corazón de productos tan populares como el iPhone, la serie Galaxy de Samsung o el Apple Watch.",
+            "imageDescription": "Se ve un procesador Nvidia soldado en una placa madre indicando que fue hecho en Taiwan",
+            "newsDate": "Septiembre catorce dos mil veinte."
+        }
+    },
+    {
+        "category": "Tecnología",
+        "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
+        "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la «nube»",
+        "image": "https://www.innovaspain.com/wp-content/uploads/2018/10/Miguel-Alava-Amazon-Web-Services.jpg",
+        "newsDate": "Septiembre 14 2020 ",
+        "likes": 10,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
+            "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la nube",
+            "imageDescription": "Foto de Miguel Álava, director de Amazon web services en España",
+            "newsDate": "Septiembre catorce dos mil veinte"
+        }
+    },
+    {
+        "category": "Tecnología",
+        "newsTitle": "El 'euro digital': la criptomoneda con la que los cinco grandes bancos españoles pretenden hacer sombra a Bitcoin",
+        "newsInformation": "Desde el momento en que Facebook dio a conocer oficialmente Libra, la moneda digital se ha enfrentado a una avalancha de críticas. Los políticos y los banqueros centrales expresaron su preocupación por las posibles amenazas a la estabilidad financiera o política monetaria de cada país. Ante esto, ha surgido como propuesta alternativa el Euro Digital.",
+        "image": "https://i1.wp.com/criptotendencia.com/wp-content/uploads/2019/10/euro-digital-1.jpg?resize=890%2C450&ssl=1",
+        "newsDate": "Septiembre 15 2020 ",
+        "likes": 15,
+        "accesibilityInfo": {
+            "category": "Tecnología",
+            "newsTitle": "El euro digital: la criptomoneda con la que los cinco grandes bancos españoles pretenden hacer sombra a Bitcoin",
+            "newsInformation": "Desde el momento en que Facebook dio a conocer oficialmente Libra, la moneda digital se ha enfrentado a una avalancha de críticas. Los políticos y los banqueros centrales expresaron su preocupación por las posibles amenazas a la estabilidad financiera o política monetaria de cada país. Ante esto, ha surgido como propuesta alternativa el Euro Digital.",
+            "imageDescription": "Representación gráfica de dos personas cargando una moneda gigante cada uno. Uno con el símbolo del euro digital y otro con el símbolo del bitcoin.",
+            "newsDate": "Septiembre quince dos mil veinte"
+        }
+    }
+]
