@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F25BDB5825130D6100605314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB5725130D6100605314 /* AppDelegate.swift */; };
 		F25BDB5A25130D6100605314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB5925130D6100605314 /* SceneDelegate.swift */; };
-		F25BDB5C25130D6100605314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB5B25130D6100605314 /* ViewController.swift */; };
 		F25BDB5F25130D6100605314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB5D25130D6100605314 /* Main.storyboard */; };
 		F25BDB6125130D6300605314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB6025130D6300605314 /* Assets.xcassets */; };
 		F25BDB6425130D6300605314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25BDB6225130D6300605314 /* LaunchScreen.storyboard */; };
+		F25BDB702513164500605314 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB6E2513164500605314 /* CategoryTableViewCell.swift */; };
+		F25BDB712513164500605314 /* NewsCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25BDB6F2513164500605314 /* NewsCategoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F25BDB5425130D6100605314 /* VoiceOverApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceOverApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25BDB5725130D6100605314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F25BDB5925130D6100605314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F25BDB5B25130D6100605314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F25BDB5E25130D6100605314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F25BDB6025130D6300605314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25BDB6325130D6300605314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F25BDB6525130D6300605314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25BDB6E2513164500605314 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		F25BDB6F2513164500605314 /* NewsCategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCategoriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		F25BDB5625130D6100605314 /* VoiceOverApp */ = {
 			isa = PBXGroup;
 			children = (
-				F25BDB5725130D6100605314 /* AppDelegate.swift */,
-				F25BDB5925130D6100605314 /* SceneDelegate.swift */,
-				F25BDB5B25130D6100605314 /* ViewController.swift */,
+				F25BDB6D2513163200605314 /* Modules */,
+				F25BDB6B2513161300605314 /* SupportingFiles */,
 				F25BDB5D25130D6100605314 /* Main.storyboard */,
 				F25BDB6025130D6300605314 /* Assets.xcassets */,
 				F25BDB6225130D6300605314 /* LaunchScreen.storyboard */,
 				F25BDB6525130D6300605314 /* Info.plist */,
 			);
 			path = VoiceOverApp;
+			sourceTree = "<group>";
+		};
+		F25BDB6B2513161300605314 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F25BDB5925130D6100605314 /* SceneDelegate.swift */,
+				F25BDB5725130D6100605314 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F25BDB6C2513162A00605314 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F25BDB6E2513164500605314 /* CategoryTableViewCell.swift */,
+				F25BDB6F2513164500605314 /* NewsCategoriesViewController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F25BDB6D2513163200605314 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F25BDB6C2513162A00605314 /* Category */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25BDB5C25130D6100605314 /* ViewController.swift in Sources */,
 				F25BDB5825130D6100605314 /* AppDelegate.swift in Sources */,
 				F25BDB5A25130D6100605314 /* SceneDelegate.swift in Sources */,
+				F25BDB702513164500605314 /* CategoryTableViewCell.swift in Sources */,
+				F25BDB712513164500605314 /* NewsCategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
