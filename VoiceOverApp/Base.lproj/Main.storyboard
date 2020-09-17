@@ -216,11 +216,160 @@
                     <navigationItem key="navigationItem" id="MFO-SM-Jzw"/>
                     <connections>
                         <outlet property="tableView" destination="Y4H-XJ-6ej" id="E4x-EZ-LYH"/>
+                        <segue destination="aXE-sz-SeU" kind="show" identifier="showDetails" id="pwX-Ay-E8W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AdK-6O-nVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1048" y="926"/>
         </scene>
+        <!--News Detail View Controller-->
+        <scene sceneID="KN1-99-YcU">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="aXE-sz-SeU" customClass="NewsDetailViewController" customModule="AccessibilityNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bv4-UG-ikI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ukk-jE-lNS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsDetailImageTableViewCell" id="fo8-zB-vF2" customClass="NewsDetailImageTableViewCell" customModule="AccessibilityNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fo8-zB-vF2" id="Yuh-dF-1MR">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="svQ-L9-nV8">
+                                                    <rect key="frame" x="8" y="8" width="398" height="192.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="svQ-L9-nV8" secondAttribute="height" multiplier="207:100" id="0OW-d8-dWk"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wVu-hc-1Bd">
+                                                    <rect key="frame" x="358" y="16" width="40" height="40"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="E1g-7p-vA8"/>
+                                                        <constraint firstAttribute="height" constant="40" id="ghN-JJ-6LI"/>
+                                                    </constraints>
+                                                    <state key="normal" image="unfavorite"/>
+                                                    <connections>
+                                                        <action selector="favorite:" destination="fo8-zB-vF2" eventType="touchUpInside" id="T2H-v4-med"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="svQ-L9-nV8" secondAttribute="trailing" constant="8" id="0Jn-2e-VTo"/>
+                                                <constraint firstAttribute="bottom" secondItem="svQ-L9-nV8" secondAttribute="bottom" id="8nP-Lc-Zib"/>
+                                                <constraint firstItem="svQ-L9-nV8" firstAttribute="top" secondItem="Yuh-dF-1MR" secondAttribute="top" constant="8" id="9mZ-pD-naS"/>
+                                                <constraint firstItem="svQ-L9-nV8" firstAttribute="leading" secondItem="Yuh-dF-1MR" secondAttribute="leading" constant="8" id="eQQ-j0-6vk"/>
+                                                <constraint firstItem="wVu-hc-1Bd" firstAttribute="top" secondItem="Yuh-dF-1MR" secondAttribute="top" constant="16" id="hAd-b1-E48"/>
+                                                <constraint firstItem="wVu-hc-1Bd" firstAttribute="trailing" secondItem="svQ-L9-nV8" secondAttribute="trailing" constant="-8" id="mDd-l0-1in"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="favoriteButton" destination="wVu-hc-1Bd" id="SXu-g5-MVD"/>
+                                            <outlet property="newsDetailImageView" destination="svQ-L9-nV8" id="RvV-cD-waA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsDetailTitleTableViewCell" id="ojb-0M-rN7" customClass="NewsDetailTitleTableViewCell" customModule="AccessibilityNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="228.5" width="414" height="52.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ojb-0M-rN7" id="yer-E5-zVW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="52.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNH-su-Ara">
+                                                    <rect key="frame" x="16" y="16" width="382" height="20.5"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="vNH-su-Ara" secondAttribute="bottom" constant="16" id="QCE-Pq-YlS"/>
+                                                <constraint firstItem="vNH-su-Ara" firstAttribute="top" secondItem="yer-E5-zVW" secondAttribute="top" constant="16" id="TpZ-ib-pDn"/>
+                                                <constraint firstItem="vNH-su-Ara" firstAttribute="centerX" secondItem="yer-E5-zVW" secondAttribute="centerX" id="Yy1-Xr-hYF"/>
+                                                <constraint firstItem="vNH-su-Ara" firstAttribute="leading" secondItem="yer-E5-zVW" secondAttribute="leading" constant="16" id="n7R-q5-gpT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="vNH-su-Ara" id="WVh-IQ-p1w"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsInformationTableViewCell" id="4PN-Mo-8IB" customClass="NewsInformationTableViewCell" customModule="AccessibilityNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="281" width="414" height="79.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4PN-Mo-8IB" id="Fdo-AX-Fmm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXp-RE-BgC">
+                                                    <rect key="frame" x="16" y="46.5" width="382" height="17"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgS-B7-Qh7">
+                                                    <rect key="frame" x="16" y="16" width="382" height="14.5"/>
+                                                    <accessibility key="accessibilityConfiguration">
+                                                        <bool key="isElement" value="NO"/>
+                                                    </accessibility>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gXp-RE-BgC" secondAttribute="trailing" constant="16" id="0cm-xK-UHe"/>
+                                                <constraint firstItem="QgS-B7-Qh7" firstAttribute="centerX" secondItem="Fdo-AX-Fmm" secondAttribute="centerX" id="1p2-nf-1Pm"/>
+                                                <constraint firstAttribute="bottom" secondItem="gXp-RE-BgC" secondAttribute="bottom" constant="16" id="4TO-rk-W8S"/>
+                                                <constraint firstItem="QgS-B7-Qh7" firstAttribute="top" secondItem="Fdo-AX-Fmm" secondAttribute="top" constant="16" id="Fzh-qv-vGD"/>
+                                                <constraint firstItem="gXp-RE-BgC" firstAttribute="leading" secondItem="Fdo-AX-Fmm" secondAttribute="leading" constant="16" id="VAa-Tu-yEa"/>
+                                                <constraint firstItem="gXp-RE-BgC" firstAttribute="top" secondItem="QgS-B7-Qh7" secondAttribute="bottom" constant="16" id="gUR-MH-ilr"/>
+                                                <constraint firstItem="QgS-B7-Qh7" firstAttribute="leading" secondItem="Fdo-AX-Fmm" secondAttribute="leading" constant="16" id="thr-qJ-Idk"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="QgS-B7-Qh7" id="9VI-xA-vVV"/>
+                                            <outlet property="informationLabel" destination="gXp-RE-BgC" id="ggd-SU-2fG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ukk-jE-lNS" firstAttribute="top" secondItem="8Qb-uf-Bvd" secondAttribute="top" id="7dQ-zs-pZO"/>
+                            <constraint firstItem="Ukk-jE-lNS" firstAttribute="leading" secondItem="8Qb-uf-Bvd" secondAttribute="leading" id="AVF-34-Rdn"/>
+                            <constraint firstItem="8Qb-uf-Bvd" firstAttribute="trailing" secondItem="Ukk-jE-lNS" secondAttribute="trailing" id="URb-gU-f1P"/>
+                            <constraint firstItem="8Qb-uf-Bvd" firstAttribute="bottom" secondItem="Ukk-jE-lNS" secondAttribute="bottom" id="jZV-3y-XfF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Qb-uf-Bvd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jcl-V8-6KN"/>
+                    <connections>
+                        <outlet property="tableView" destination="Ukk-jE-lNS" id="WAp-Ll-40i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IVk-xI-o4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1997" y="925"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="unfavorite" width="256" height="256"/>
+    </resources>
 </document>
