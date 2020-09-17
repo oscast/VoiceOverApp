@@ -26,5 +26,6 @@ class CategoryTableViewCell: UITableViewCell {
         categoryLabel.isAccessibilityElement = true
         categoryLabel.accessibilityTraits = .staticText
         categoryLabel.accessibilityLabel = category.name
+        categoryLabel.accessibilityHint = "Toque dos veces para escuchar noticias de esta categoría."
     }
 }
