@@ -17,5 +17,14 @@ class CategoryTableViewCell: UITableViewCell {
         let imageName = category == .technology ? "Tech": category.name
         let image = UIImage(named: imageName)
         categoryImageView.image = image
+        self.isAccessibilityElement = false
+
+        makeItAccesible(with: category)
+    }
+    
+    func makeItAccesible(with category: Category) {
+        categoryLabel.isAccessibilityElement = true
+        categoryLabel.accessibilityTraits = .staticText
+        categoryLabel.accessibilityLabel = category.name
     }
 }
