@@ -1,6 +1,6 @@
 //
 //  NewsInformationTableViewCell.swift
-//  AccessibilityNews
+//  VoiceOverApp
 //
 //  Created by Oscar Castillo on 9/16/20.
 //
