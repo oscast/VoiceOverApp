@@ -1,47 +1,47 @@
 [
     {
         "category": "Negocios",
-        "newsTitle": """Impacta con tu historia"", una iniciativa de ESEN para promover la creatividad de la juventud salvadoreña",
-        "newsInformation": "La Escuela Superior de Economía y Negocios (ESEN) lanza el concurso “Impacta con tu historia”, con el que buscan que jóvenes en último año de bachillerato se motiven a participar y ganar, entre otras cosas, media beca de estudios.",
-        "image": "ARM",
-        "newsDate": "Septiembre 14 2020 ",
+        "newsTitle": "Banco suizo se asocia con fondo de Qatar para negocio de crédito.",
+        "newsInformation": "Crédito Suisse Group AG y Qatar Investment Authority acordaron unir esfuerzos para establecer una plataforma multimillonaria para invertir en préstamos directos.",
+        "image": "https://www.portafolio.co/files/article_multimedia/uploads/2016/02/05/56b5142e556de.jpeg",
+        "newsDate": "Sep 17 2020 ",
         "likes": 5,
         "accesibilityInfo": {
-            "category": "Tecnologia",
-            "newsTitle": "Impacta con tu historia, una iniciativa de ESEN para promover la creatividad de la juventud salvadoreña",
-            "newsInformation": "La Escuela Superior de Economía y Negocios (ESEN) lanza el concurso llamado, Impacta con tu historia, con el que buscan que jóvenes en último año de bachillerato se motiven a participar y ganar, entre otras cosas, media beca de estudios.",
+            "category": "Negocios",
+            "newsTitle": "Banco suizo se asocia con fondo de Qatar para negocio de crédito.",
+            "newsInformation": "Crédito Suisse Group AG y Qatar Investment Authority acordaron unir esfuerzos para establecer una plataforma multimillonaria para invertir en préstamos directos.",
             "imageDescription": "Se ve un procesador Nvidia soldado en una placa madre indicando que fue hecho en Taiwan",
-            "newsDate": "Septiembre catorce dos mil veinte"
+            "newsDate": "Sep 17 2020"
         }
     },
     {
-        "category": "Tecnología",
-        "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
-        "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la «nube»",
-        "image": "Miguel",
-        "newsDate": "Septiembre 14 2020 ",
+        "category": "Negocios",
+        "newsTitle": "Fuerte recuperación de los precios del petróleo.",
+        "newsInformation": "Los precios del petróleo siguieron subiendo este miércoles y según los analistas se debió a los efectos del acercamiento del huracán Sally a Estados Unidos, así como un informe difundido en ese país que muestra una caída inesperada en los inventarios de crudo norteamericanos.",
+        "image": "https://www.portafolio.co/files/article_multimedia/uploads/2016/02/04/56b3bc0c1aee4.jpeg",
+        "newsDate": "Sep 16 2020 ",
         "likes": 30,
         "accesibilityInfo": {
             "category": "Tecnologia",
-            "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
-            "newsInformation": "La necesidad del trabajo en remoto, y flexibilizar la empresa ente una situación de incertidumbre han hecho que muchas empresas quieran modernizar sus procedimientos e infraestructuras, y sobre todo saltar a la nube",
-            "imageDescription": "Foto de Miguel Álava, director de Amazon web services en España",
-            "newsDate": "Septiembre catorce dos mil veinte"
+            "newsTitle": "Fuerte recuperación de los precios del petróleo.",
+            "newsInformation": "Los precios del petróleo siguieron subiendo este miércoles y según los analistas se debió a los efectos del acercamiento del huracán Sally a Estados Unidos, así como un informe difundido en ese país que muestra una caída inesperada en los inventarios de crudo norteamericanos.",
+            "imageDescription": "Foto de una refineria de petroleo. Fuego es expuldado de una torre.",
+            "newsDate": "Septiembre 16 2020"
         }
     },
     {
         "category": "Tecnología",
-        "newsTitle": "El 'euro digital': la criptomoneda con la que los cinco grandes bancos españoles pretenden hacer sombra a Bitcoin",
-        "newsInformation": "Son días en los que los bancos dan noticias que pueden afectarnos a todos. A la fusión entre CaixaBank y Bankia que ya se está ejecutando, y que impelería el surgimiento de la entidad bancaria más grande de España, también hay que sumar el proyecto de crear un 'euro digital'.",
-        "image": "Miguel",
-        "newsDate": "Septiembre 14 2020 ",
+        "newsTitle": "Apple Event: así fue la presentación de los nuevos Apple Watch y iPad.",
+        "newsInformation": "A diferencia del resto de iPads, el nuevo iPad Air cuenta con la cámara frontal ubicada en el centro de la pantalla si la tenemos en horizontal. De este modo está pensada para que las videollamadas sean mucho más útiles.",
+        "image": "https://s1.eestatic.com/2020/09/15/actualidad/Actualidad_520960062_160041237_1706x960.jpg",
+        "newsDate": "Sep 17 2020 ",
         "likes": 20,
         "accesibilityInfo": {
             "category": "Tecnologia",
-            "newsTitle": "La crisis del coronavirus ha acelerado la necesidad del trabajo en remoto",
-            "newsInformation": "Son días en los que los bancos dan noticias que pueden afectarnos a todos. A la fusión entre CaixaBank y Bankia que ya se está ejecturando, y que impelería el surgimiento de la entidad bancaria más grande de España, también hay que sumar el proyecto de crear un euro digital",
-            "imageDescription": "Foto de Miguel Álava, director de Amazon web services en España",
-            "newsDate": "Septiembre catorce dos mil veinte"
+            "newsTitle": "Los lanzamientos de Apple este martes 15 de septiembre.",
+            "newsInformation": "A diferencia del resto de iPads, el nuevo iPad Air cuenta con la cámara frontal ubicada en el centro de la pantalla si la tenemos en horizontal. De este modo está pensada para que las videollamadas sean mucho más útiles.",
+            "imageDescription": "Fotos de varias iPad de octava generación",
+            "newsDate": "Septiembre 15 2020"
         }
     }
 ]

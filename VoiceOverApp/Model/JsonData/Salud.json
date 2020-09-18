@@ -1,0 +1,47 @@
+[
+    {
+        "category": "Salud",
+        "newsTitle": "Más años de educación pueden reducir el riesgo de demencia.",
+        "newsInformation": "Un estudio de investigación internacional, dirigido por el Centro para el Envejecimiento Cerebral Saludable (CHeBA) en Sydney apoyó el hallazgo de que los años de educación están relacionados con la demencia. De hecho, informaron de que, cuanto más años de educación tenga la persona, el riesgo de padecer demencia es menor.",
+        "image": "https://www.noticiasensalud.com/wp-content/uploads/2020/08/Mas-anos-de-educacion-pueden-reducir-el-riesgo-de-demencia-1.jpg",
+        "newsDate": "ago 31 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Salud",
+            "newsTitle": "Más años de educación pueden reducir el riesgo de demencia.",
+            "newsInformation": "Un estudio de investigación internacional, dirigido por el Centro para el Envejecimiento Cerebral Saludable por su siglas C H E B A,  en Sydney apoyó el hallazgo de que los años de educación están relacionados con la demencia. De hecho, informaron de que, cuanto más años de educación tenga la persona, el riesgo de padecer demencia es menor.",
+            "imageDescription": "Se ve la foto de una mujer utilizando una computadora portatil para estudiar",
+            "newsDate": "agosto 31 2020."
+        }
+    },
+    {
+        "category": "Salud",
+        "newsTitle": "¿Puede el sueño protegernos de olvidar viejos recuerdos?.",
+        "newsInformation": "Desde reducir el riesgo de obesidad y enfermedades cardiovasculares hasta mejorar la concentración general, se ha demostrado que el sueño desempeña un papel fundamental en nuestra salud. De hecho, se ha demostrado que el sueño desempeña un papel fundamental en nuestra salud.",
+        "image": "https://www.noticiasensalud.com/wp-content/uploads/2020/08/Puede-el-sueno-protegernos-de-olvidar-viejos-recuerdos.jpg",
+        "newsDate": "ago 26 2020 ",
+        "likes": 10,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "¿Puede el sueño protegernos de olvidar viejos recuerdos?.",
+            "newsInformation": "Desde reducir el riesgo de obesidad y enfermedades cardiovasculares hasta mejorar la concentración general, se ha demostrado que el sueño desempeña un papel fundamental en nuestra salud. De hecho, se ha demostrado que el sueño desempeña un papel fundamental en nuestra salud.",
+            "imageDescription": "Foto de una mujer durmiendo tranquilamente en una cama con una cómoda almohada",
+            "newsDate": "agosto 26 2020"
+        }
+    },
+    {
+        "category": "Salud",
+        "newsTitle": "La dieta mediterránea reduce el riesgo de deterioro cognitivo.",
+        "newsInformation": "Que la dieta mediterránea es una de las mejores para la salud es algo que ya se sabía. Sin embargo, ahora, un nuevo estudio ha establecido un vínculo entre seguir una dieta mediterránea y reducir el deterioro cognitivo.",
+        "image": "https://www.noticiasensalud.com/wp-content/uploads/2020/07/La-dieta-mediterranea-reduce-el-riesgo-de-deterioro-cognitivo.jpg",
+        "newsDate": "Jul 31 2020",
+        "likes": 15,
+        "accesibilityInfo": {
+            "category": "Tecnología",
+            "newsTitle": "La dieta mediterránea reduce el riesgo de deterioro cognitivo.",
+            "newsInformation": "Que la dieta mediterránea es una de las mejores para la salud es algo que ya se sabía. Sin embargo, ahora, un nuevo estudio ha establecido un vínculo entre seguir una dieta mediterránea y reducir el deterioro cognitivo.",
+            "imageDescription": "Una foto donde se aprecian zanahorias, aguacate, una lonja de pescado, cereales, quesos",
+            "newsDate": "agosto 21 2020"
+        }
+    }
+]

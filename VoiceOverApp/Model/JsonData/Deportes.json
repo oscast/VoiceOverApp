@@ -1,0 +1,48 @@
+
+[
+    {
+        "category": "Deportes",
+        "newsTitle": "El Heat dio otro paso para llegar a la final de la NBA.",
+        "newsInformation": "El quinteto de Miami derrotó a los Celtics y puso 2-0 la serie en la disputa por la corona de la Conferencia Este.",
+        "image": "https://www.elespectador.com/resizer/n7tUvuehPd-wJ7OVpjfDWK5cRNk=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/BBDJUCIXMNEDFISUFXBJHAQXOA.jpg",
+        "newsDate": "sep 17 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Deportes",
+            "newsTitle": "El Heat dio otro paso para llegar a la final de la NBA.",
+            "newsInformation": "El quinteto de Miami derrotó a los Celtics y puso 2 a 0 la serie en la disputa por la corona de la Conferencia Este.",
+            "imageDescription": "La foto de 5 jugadores del heat, celebrando una posible victoria.",
+            "newsDate": "septiembre 17 2020."
+        }
+    },
+    {
+        "category": "Deportes",
+        "newsTitle": "Kaspárov tumba a Firouzja, empata con Carlsen y cae ante Svídler en una 1ª jornada de gran tensión.",
+        "newsInformation": "Un talento inmenso que morirá con él y la experiencia de sus 57 años sirvieron para que Gari Kaspárov ganase al prodigioso iraní, Alireza Firouzja, de 17, en la 1ª ronda y arrancase medio punto al actual campeón, el noruego Magnus Carlsen, en la 2ª. Pero la biología le pasó su factura en la 3ª, cuando cayó ante el octacampeón de Rusia, Péter Svídler.",
+        "image": "https://www.elheraldo.co/sites/default/files/styles/width_860/public/articulo/2017/08/14/kasparov-regresa-al-ajedrez.jpg?itok=dPa6bC01",
+        "newsDate": "sep 11 2020 ",
+        "likes": 10,
+        "accesibilityInfo": {
+            "category": "Salud",
+            "newsTitle": "Kaspárov tumba a Firouzja, empata con Carlsen y cae ante Svídler en una primera jornada de gran tensión.",
+            "newsInformation": "Un talento inmenso que morirá con él y la experiencia de sus 57 años sirvieron para que Gari Kaspárov ganase al prodigioso iraní, Alireza Firouzja, de 17 años, en la primera ronda y arrancase medio punto al actual campeón, el noruego Magnus Carlsen, en la segunda. Pero la biología le pasó su factura en la tercera, cuando cayó ante el octacampeón de Rusia, Péter Svídler.",
+            "imageDescription": "Gari Kaspárov, bromeando para la foto en medio de una partida de ajedrez",
+            "newsDate": "Septiembre 11 2020"
+        }
+    },
+    {
+        "category": "Deportes",
+        "newsTitle": "El nuevo estadio olímpico de Tokio se estrena con una competición de atletismo.",
+        "newsInformation": "El nuevo estadio olímpico de Tokio ha sido estrenado este domingo en una competición de atletismo con participantes, en su inmensa mayoría, japoneses. El torneo ha permitido a la corredora Nozomi Tanaka establecer un nuevo récord nacional en la prueba de 1.500 metros.",
+        "image": "https://ep01.epimg.net/elpais/imagenes/2020/08/23/album/1598188452_648663_1598191096_noticia_normal.jpg",
+        "newsDate": "ago 23 2020 ",
+        "likes": 15,
+        "accesibilityInfo": {
+            "category": "Deportes",
+            "newsTitle": "El nuevo estadio olímpico de Tokio se estrena con una competición de atletismo.",
+            "newsInformation": "El nuevo estadio olímpico de Tokio ha sido estrenado este domingo en una competición de atletismo con participantes, en su inmensa mayoría, japoneses. El torneo ha permitido a la corredora Nozomi Tanaka establecer un nuevo récord nacional en la prueba de 1.500 metros.",
+            "imageDescription": "La foto del estadio de tokyo, vacío en el atardacer.",
+            "newsDate": "agosto 23 2020."
+        }
+    }
+]

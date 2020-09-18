@@ -1,0 +1,48 @@
+
+[
+    {
+        "category": "Internacionales",
+        "newsTitle": "Así será el nuevo edificio más alto del mundo, diseñado por Santiago Calatrava en Dubai.",
+        "newsInformation": "La Dubai Creek Tower pretende desbancar al Burj Khalifa, la estructura más alta del mundo en estos momentos, de 828 metros e instalada también en el emirato. No se sabe cuánto medirá la nueva, pero más de esa cantidad seguro. Así avanzan las obras.",
+        "image": "https://phantom-elmundo.unidadeditorial.es/14d0c832456220d6095558fb935a800e/resize/746/f/webp/assets/multimedia/imagenes/2020/09/08/15995761936417.jpg",
+        "newsDate": "Sep 16 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Internacionales",
+            "newsTitle": "Así será el nuevo edificio más alto del mundo, diseñado por Santiago Calatrava en Dubai.",
+            "newsInformation": "La Dubai Creek Tower pretende desbancar al Burj Khalifa, la estructura más alta del mundo en estos momentos, de 828 metros e instalada también en el emirato. No se sabe cuánto medirá la nueva, pero más de esa cantidad seguro. Así avanzan las obras.",
+            "imageDescription": "La foto de la torre dubai crik a lo lejos.",
+            "newsDate": "Septiembre 16 2020"
+        }
+    },
+    {
+        "category": "Internacionales",
+        "newsTitle": "Dubai diseña la primera ciudad extraterrestre del mundo donde vivir como en Marte.",
+        "newsInformation": "El emirato árabe retoma su futura urbe marciana, un complejo denominado Mars Science City que ocupará la extensión de 30 campos de fútbol en medio del desierto. Sus habitantes vivirán en aislamiento bajo tierra en domos construidos con impresoras 3D.",
+        "image": "https://phantom-elmundo.unidadeditorial.es/3404eb897dfe272c902f6715b4b173b7/crop/184x0/1076x674/resize/746/f/webp/assets/multimedia/imagenes/2020/06/30/15935318829149.jpg",
+        "newsDate": "Sep 17 2020 ",
+        "likes": 30,
+        "accesibilityInfo": {
+            "category": "Internacionales",
+            "newsTitle": "Dubai diseña la primera ciudad extraterrestre del mundo donde vivir como en Marte.",
+            "newsInformation": "El emirato árabe retoma su futura urbe marciana, un complejo denominado Mars Science City que ocupará la extensión de 30 campos de fútbol en medio del desierto. Sus habitantes vivirán en aislamiento bajo tierra en domos construidos con impresoras 3D.",
+            "imageDescription": "Se foto del el interior del edificio de la ciudad marciana, arido, con palmeras a lo lejos y arabes caminando.",
+            "newsDate": "Septiembre 17 2020"
+        }
+    },
+    {
+        "category": "Internacionales",
+        "newsTitle": "Toyota ya no quiere vender carros eléctricos.",
+        "newsInformation": "Toyota, que ya asumió una postura más conservadora que sus rivales General Motors Co y Nissan Motor Co respecto del mercado para autos a batería, dijo que vendería solo alrededor de 100 vehículos eQ en Estados Unidos y Japón, en un lanzamiento muy limitado.",
+        "image": "https://static.iris.net.co/dinero/upload/images/2012/9/24/160492_92216_1.jpg",
+        "newsDate": "Sep 18 2020 ",
+        "likes": 20,
+        "accesibilityInfo": {
+            "category": "Tecnologia",
+            "newsTitle": "Toyota ya no quiere vender carros eléctricos.",
+            "newsInformation": "Toyota, que ya asumió una postura más conservadora que sus rivales General Motors C O y Nissan Motor C O respecto del mercado para autos a batería, dijo que vendería solo alrededor de 100 vehículos e Q en Estados Unidos y Japón, en un lanzamiento muy limitado.",
+            "imageDescription": "La foto del presidente de Toyota Motor Corp y director de Japan Automobile, Akio Toyoda.",
+            "newsDate": "Septiembre 18 2020"
+        }
+    }
+]

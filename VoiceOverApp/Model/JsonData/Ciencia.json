@@ -1,0 +1,48 @@
+
+[
+    {
+        "category": "Ciencia",
+        "newsTitle": "¿Por qué se formaron cinco ciclones tropicales al tiempo en el océano Atlántico?",
+        "newsInformation": "Desde 1971 no se registraban cinco ciclones tropicales activos al mismo tiempo. Expertos explican que el cambio climático aumenta la temperatura global promedio, lo que genera un incremento en la temperatura del mar y en la fuerza del huracán. La temporada iría hasta el 30 de noviembre.",
+        "image": "https://www.elespectador.com/resizer/qP8HaIxwMGkCC9ACeN13mgSkmcE=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/NFQH5JHITVGTLLP6FS7IROHVWQ.jpg",
+        "newsDate": "sep 20 2020 ",
+        "likes": 5,
+        "accesibilityInfo": {
+            "category": "Ciencia",
+            "newsTitle": "¿Por qué se formaron cinco ciclones tropicales al tiempo en el océano Atlántico?",
+            "newsInformation": "Desde 1971 no se registraban cinco ciclones tropicales activos al mismo tiempo. Expertos explican que el cambio climático aumenta la temperatura global promedio, lo que genera un incremento en la temperatura del mar y en la fuerza del huracán. La temporada iría hasta el 30 de noviembre.",
+            "imageDescription": "La foto desde arriba muy lejana, de cinco ciclones formandose en el oceano",
+            "newsDate": "septiembre 20 2020."
+        }
+    },
+    {
+        "category": "Salud",
+        "newsTitle": "Estudio muestra que once especies de peces podrían ser capaces de caminar.",
+        "newsInformation": "Los hallazgos se basan en tomografías computarizadas y un nuevo mapa evolutivo de la familia de los balitóridos o lochas de torrente, que incluye las únicas especies de peces vivos capturados en el acto de caminar: un pez de las cavernas ciego y raro conocido como Cryptotora thamicola, o el pez ángel de las cavernas. Identificar qué especies de lochas de río tienen capacidad para caminar puede ayudar a los científicos a reconstruir cómo pudieron haber llegado a ser los primeros vertebrados que caminaron por la tierra.",
+        "image": "https://www.eluniversal.com.mx/sites/default/files/2020/09/09/peces_que_caminan_evolucion.jpg",
+        "newsDate": "sep 9 2020 ",
+        "likes": 10,
+        "accesibilityInfo": {
+            "category": "Salud",
+            "newsTitle": "Estudio muestra que once especies de peces podrían ser capaces de caminar.",
+            "newsInformation": "Los hallazgos se basan en tomografías computarizadas y un nuevo mapa evolutivo de la familia de los balitóridos o lochas de torrente, que incluye las únicas especies de peces vivos capturados en el acto de caminar: un pez de las cavernas ciego y raro conocido como Cryptotora thamicola, o el pez ángel de las cavernas. Identificar qué especies de lochas de río tienen capacidad para caminar puede ayudar a los científicos a reconstruir cómo pudieron haber llegado a ser los primeros vertebrados que caminaron por la tierra.",
+            "imageDescription": "Representación gráfica computarizada de 3 peces.",
+            "newsDate": "Septiembre 9 2020"
+        }
+    },
+    {
+        "category": "Salud",
+        "newsTitle": "Inhalar helio también deja la voz fina a los lagartos y otros ganadores de los Nobel a lo más absurdo de la ciencia.",
+        "newsInformation": "Los Ig Nobel, una parodia de los Nobel, reconoce las investigaciones científicas más inútiles. Demostrar que los cuchillos fabricados con heces humanas congeladas no funcionan bien o comprobar que muchos científicos que estudian insectos le tienen miedo a las arañas fueron otros de los galardonados.",
+        "image": "https://www.elespectador.com/resizer/ylpA8kN1WYMYSmtm_pMlOR9H3VY=/657x0/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FQBXU36PV5FERNBTNHYZMMYERA.jpg",
+        "newsDate": "sep 17 2020 ",
+        "likes": 15,
+        "accesibilityInfo": {
+            "category": "Salud",
+            "newsTitle": "Inhalar helio también deja la voz fina a los lagartos y otros ganadores de los Nobel a lo más absurdo de la ciencia.",
+            "newsInformation": "Los Ig Nobel, una parodia de los Nobel, reconoce las investigaciones científicas más inútiles. Demostrar que los cuchillos fabricados con heces humanas congeladas no funcionan bien o comprobar que muchos científicos que estudian insectos le tienen miedo a las arañas fueron otros de los galardonados.",
+            "imageDescription": "La foto de un lagarto pequeño, saliendo, sacando la nariz del agua.",
+            "newsDate": "Septiembre 17 2020."
+        }
+    }
+]
