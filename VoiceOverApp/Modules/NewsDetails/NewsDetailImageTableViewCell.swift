@@ -32,10 +32,29 @@ class NewsDetailImageTableViewCell: UITableViewCell {
         checkFavorite(isFavorite: newsIsFavorite)
         let url = URL(string: news.image)
         newsDetailImageView.sd_setImage(with: url, completed: nil)
+        makeItAccessible(with: news)
     }
     
     func checkFavorite(isFavorite: Bool) {
         let image = newsIsFavorite ? favoriteImage: unfavoriteImage
         favoriteButton.setImage(image, for: .normal)
+        setupFavoriteButtonAccessibility()
+    }
+    
+    func makeItAccessible(with news: NewsModel) {
+        newsDetailImageView.isAccessibilityElement = true
+        newsDetailImageView.accessibilityTraits = .image
+        newsDetailImageView.accessibilityLabel = news.accesibilityInfo.imageDescription
+        
+        favoriteButton.isAccessibilityElement = true
+        favoriteButton.accessibilityTraits = .button
+        setupFavoriteButtonAccessibility()
+    }
+    
+    func setupFavoriteButtonAccessibility() {
+        let selectedMessage = newsIsFavorite ? "Seleccionado.": "No seleccionado."
+        favoriteButton.accessibilityLabel = "Agregar a favoritos: \(selectedMessage)"
+        let actionMessage = newsIsFavorite ? "eliminar de favoritos.": "agregar a favoritos."
+        favoriteButton.accessibilityHint = "Toca dos veces para \(actionMessage)"
     }
 }
